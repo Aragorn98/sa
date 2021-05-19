@@ -1,0 +1,1013 @@
+
+body{
+	margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #d9d9d9;
+}
+
+
+
+/*Header/////////////////////////////////////////////*/
+.logo{
+cursor: pointer;
+width:175px;
+margin-top:40px;
+}
+
+header {
+background:#adb8bb;
+box-shadow: 0 0px 40px rgba(0,0,0,0.5); /* Параметры тени */
+
+
+}
+
+.Time {
+	margin-top:21%;
+	font-family: 'Do Hyeon', sans-serif;
+	margin-right:10%;
+  display:inline-block;
+  letter-spacing:6px;
+}
+
+
+
+ #hovere {
+  left:1170px;
+  position:absolute;
+  top:24px;
+  opacity:0.5%;
+
+
+ 
+}
+#hovere li a:hover{
+  opacity:0.9%;
+  
+
+
+}
+
+div li  {
+display: inline-block;
+text-decoration: none; 
+opacity:0.5%;
+}
+
+
+div li  a{
+  text-decoration: none;
+
+}
+
+ .hover  {
+  position: relative;
+    text-decoration: none;
+    color:black;
+    font-size:18px;
+    padding: 10px;  
+    cursor:pointer;
+    opacity:0.5;
+    border-radius:5px;
+}
+
+
+ul {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  
+
+}
+li  ul li {display: inline-block;
+}
+li ul li:hover{
+  color:white;
+
+}
+li:hover ul {
+  display: block;
+  height: 200px;
+  position: absolute;
+  color:white;
+  transition:5s;
+
+
+  
+}
+li ul  {
+  position: absolute;
+  width:150px;
+  display: none;
+
+  
+ 
+  
+}
+ li ul li { 
+  background: #d9d9d9; 
+  opacity:0.9;
+  display: block; 
+color: white; 
+ padding:6px 6px 6px 6px;
+
+
+
+}
+ li ul li a {display:block !important;
+ } 
+ li ul li:hover {background:#f4b642;
+  color:white;
+   transition:.5s;
+ }
+
+
+
+
+
+
+   #Logout {
+    position: relative;
+   margin-left:105%;
+   border-radius:6px;
+   border:0;
+   width:90px;
+   height:34px;
+   background-color:#d22325;
+   top:21px;
+   padding-left:1px; 
+   
+   }
+
+   nav ul{
+  overflow: hidden;
+  color: black;
+  padding: 0;
+  text-align: left;
+  margin: 0;
+  transition: max-height 0.5s;
+  width: 115%;
+}
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: inherit;
+  position:relative;
+  margin-left:0px;
+}
+
+
+
+
+#Search{
+  position:relative;
+float: right;
+  width: 20%;
+  height:2.5em;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    right:65.4px;
+    bottom:0px;
+ 
+    padding: 12px 20px 12px 20px;
+}
+
+.menu-icon{
+  width: 100%;
+  background: #adb8bb;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+  text-align: left;
+}
+ 
+ 
+
+/*section///////////////////////////////////////////////*/
+
+
+section{
+  
+}
+
+.selectlist{
+  position: relative;
+  margin-top:10px;
+  right:10px;
+  
+   
+ }
+
+ .select {
+  cursor:pointer;
+padding:5px 5px 5px 5px;
+border-radius:5px;
+box-shadow: 0 0px 9px rgba(0,0,0,0.5);
+ }
+
+
+
+.AddClass{
+position:absolute;
+margin-left:838px;
+text-decoration:none;
+break-inside:100px;
+
+}
+
+ .AddClass li{
+  text-decoration:none;
+  position:relative;
+  left:150px;
+  display:inline-block;
+  float:right;
+  padding-right:5px;
+  bottom:27px;
+  cursor:pointer;
+  font-size:1.3em;
+  break-inside:10px; 
+  padding-right:25px;
+
+ }
+
+.time1{
+   top:40px;
+   position:relative;
+    
+    font-size: 1.5em;
+    text-decoration:none;
+    margin-left: -180px;
+    margin-bottom: -200px;
+    text-shadow: 1px 5px 5px gray, 0 0 1em white;
+    }
+.week_item{
+  text-align:center;
+display:inline-block;
+margin-left:-35px;
+margin-top:55px;
+padding:6px 8px 6px 0;  
+background-color:white;
+width:170px;
+position:relative;
+  left:100px;
+    font-family: 'Muli', sans-serif;  
+  border:2px ;
+  color:black;
+     font-size:1.15em; 
+     box-shadow: 0 0px 40px rgba(0,0,0,0.5);
+     border-radius: 5px;
+
+}
+.day_item{
+display:inline-block;
+margin-left:-170px;
+margin-right: 48px;
+margin-top:100px;
+padding:0px 20px 20px 10px;  
+background-color:white;
+width:170px;
+height: 220px;
+position:relative;
+  
+    font-family: 'Muli', sans-serif;  
+  border:2px ;
+  color:black;
+  left: 100px;
+     font-size:1.15em; 
+     box-shadow: 0 0px 40px rgba(0,0,0,0.5);
+}
+.day_item2{
+display:inline-block;
+margin-left:-170px;
+
+margin-top:340px;
+padding:10px 20px 20px 10px;  
+background-color:white;
+width:170px;
+height: 220px;
+position:relative;
+  left: 52px;
+    font-family: 'Muli', sans-serif;  
+  border:2px ;
+  color:black;
+     font-size:1.15em; 
+     box-shadow: 0 0px 40px rgba(0,0,0,0.5);
+}
+.day_item3{
+display:inline-block;
+margin-left:-170px;
+
+margin-top:580px;
+padding:10px 20px 20px 10px;  
+background-color:white;
+width:170px;
+height: 220px;
+position:relative;
+  left: 52px;
+    font-family: 'Muli', sans-serif;  
+  border:2px ;
+  color:black;
+     font-size:1.15em; 
+     box-shadow: 0 0px 40px rgba(0,0,0,0.5);
+}
+
+
+/*-----------------------*/
+#pen{
+  position: relative;
+  width: 85%;
+}
+.pencil{
+  position: relative;
+  margin-left: 125px;
+}
+
+#footer{
+  height:80px;
+  width:100%;
+
+  position:relative;
+  top:800.122px;
+  
+}
+
+/**********ALERT START**********/
+
+#Addselec{
+  position:relative;
+  left:70px;
+}
+.AddSubject {
+padding:5px 15px 15px;
+position:fixed;
+top:190px;
+left:50%;
+display:none;
+overflow:hidden;
+border:2px solid black;
+background:#adb8bb;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+margin-left:-160px;
+width:300px;
+height:220px;
+}
+.AddSubject h2 {
+font:bold 18px/32px Arial, san-serif;
+
+text-align:center;
+}
+.AddSubject a.close {
+width:16px;
+height:16px;
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:10px;
+right:10px;
+background:url(../image/close.png) no-repeat;
+}
+
+.AddSubject form {
+margin-top:10px;
+}
+.AddSubject label {
+width:100px;
+height:26px;
+font:bold 12px/26px Arial, san-serif;
+display:inline-block;
+vertical-align:top;
+*display:inline;
+*zoom:1;
+
+}
+.AddSubject input[type=text]{
+  width: 82%;
+}
+.AddSubject input{
+  width:200px; height:50px;
+  margin-left:35px;
+  margin-top:20px;
+  border-radius:7px;
+  padding:10px;
+}
+.AddSubject input[type=submit] {
+margin:10px 0px 0 0;
+padding:3px 10px;
+float:right;
+background:#ccc;
+border:0;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+font:bold 10px Arial, san-serif;
+text-transform:uppercase;
+position:relative;
+cursor:pointer;
+margin-top:10px;
+height:25px;
+width:50px;  
+}
+.AddSubject input[type=submit]:hover {
+color:#fff;
+}
+
+/*Add Class Alert
+*/
+#Addselect{
+  position:relative;
+  left:62px;
+  
+  border:none;
+
+}
+.AddClasss {
+padding:5px 15px 15px;
+position:fixed;
+top:190px;
+left:45.5%;
+display:none;
+overflow:hidden;
+border:2px solid black;
+background:#adb8bb;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+margin-left:-160px;
+width:480px;
+height:370px;
+line-height:10px;
+}
+.AddClasss h2 {
+font:bold 18px/32px Arial, san-serif;
+
+text-align:center;
+}
+.AddClasss a.close {
+width:16px;
+height:16px;
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:10px;
+right:10px;
+background:url(../image/close.png) no-repeat;
+}
+
+.AddClasss form {
+margin-top:10px;
+}
+.AddClasss label {
+width:100px;
+height:26px;
+font:bold 12px/26px Arial, san-serif;
+display:inline-block;
+vertical-align:top;
+*display:inline;
+*zoom:1;
+
+}
+.AddClasss input[type=text]{
+  width: 82%;
+}
+.AddClasss textarea{
+  width:200px; height:50px;
+  margin-left:35px;
+  margin-top:20px;
+  border-radius:7px;
+  padding:10px;
+}
+.AddClasss input[type=submit] {
+margin:10px 45px 0 0;
+padding:3px 10px;
+float:right;
+background:#ccc;
+border:0;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+font:bold 10px Arial, san-serif;
+text-transform:uppercase;
+position:relative;
+cursor:pointer;
+margin-top:10px;
+height:25px;
+width:50px;  
+}
+.AddClasss input[type=submit]:hover {
+color:#fff;
+}
+
+/*Add Group*/
+#Addselecting{
+  position:relative;
+  left:66px;
+  margin-top:0px;
+
+}
+.AddGroup {
+padding:5px 15px 15px;
+position:fixed;
+top:190px;
+left:50%;
+display:none;
+overflow:hidden;
+border:2px solid black;
+background:#adb8bb;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+margin-left:-160px;
+width:300px;
+height:255px;
+}
+.AddGroup h2 {
+font:bold 18px/32px Arial, san-serif;
+
+text-align:center;
+}
+.AddGroup a.close {
+width:16px;
+height:16px;
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:10px;
+right:10px;
+background:url(../image/close.png) no-repeat;
+}
+
+.AddGroup form {
+margin-top:10px;
+}
+.AddGroup label {
+width:100px;
+height:26px;
+font:bold 12px/26px Arial, san-serif;
+display:inline-block;
+vertical-align:top;
+*display:inline;
+*zoom:1;
+
+}
+.AddGroup input[type=text]{
+  width: 82%;
+}
+.AddGroup input {
+  width:200px; height:50px;
+  margin-left:35px;
+  margin-top:20px;
+  border-radius:7px;
+  padding:10px;
+}
+.AddGroup input[type=submit] {
+margin:10px 0px 0 0;
+padding:3px 10px;
+float:right;
+background:#ccc;
+border:0;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+font:bold 10px Arial, san-serif;
+text-transform:uppercase;
+position:relative;
+cursor:pointer;
+margin-top:10px;
+height:25px;
+width:50px;  
+}
+.AddGroup input[type=submit]:hover {
+color:#fff;
+}
+/*Add EditTimetable*/
+
+.AddTeacher {
+padding:5px 15px 15px;
+position:fixed;
+top:190px;
+left:50%;
+display:none;
+overflow:hidden;
+border:2px solid black;
+background:#adb8bb;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+margin-left:-160px;
+width:340px;
+height:530px;
+}
+.AddTeacher h2 {
+font:bold 18px/32px Arial, san-serif;
+
+text-align:center;
+}
+.AddTeacher a.close {
+width:16px;
+height:16px;
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:10px;
+right:10px;
+background:url(../image/close.png) no-repeat;
+}
+
+.AddTeacher form {
+margin-top:10px;
+}
+.AddTeacher label {
+width:100px;
+height:26px;
+font:bold 12px/26px Arial, san-serif;
+display:inline-block;
+vertical-align:top;
+*display:inline;
+*zoom:1;
+
+}
+.AddTeacher input[type=text]{
+  width: 82%;
+}
+.AddTeacher input {
+  width:200px; height:35px;
+  margin-left:35px;
+  margin-top:20px;
+  border-radius:7px;
+  padding:10px;
+}
+.AddTeacher input[type=submit] {
+margin:10px 0px 0 0;
+padding:3px 10px;
+float:right;
+background:#ccc;
+border:0;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+font:bold 10px Arial, san-serif;
+text-transform:uppercase;
+position:relative;
+cursor:pointer;
+margin-top:10px;
+height:25px;
+width:50px;  
+}
+.AddTeacher input[type=submit]:hover {
+color:#fff;
+}
+
+
+/*DeleteGroup*/
+
+.DeleteGroup {
+padding:5px 15px 15px;
+position:fixed;
+top:190px;
+left:50%;
+display:none;
+overflow:hidden;
+border:2px solid black;
+background:#adb8bb;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+margin-left:-160px;
+width:300px;
+height:185px;
+}
+.DeleteGroup h2 {
+font:bold 18px/32px Arial, san-serif;
+text-align:center;
+}
+.DeleteGroup a.close {
+width:16px;
+height:16px;
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:10px;
+right:10px;
+background:url(../image/close.png) no-repeat;
+}
+
+.DeleteGroup form {
+margin-top:10px;
+}
+.DeleteGroup label {
+width:100px;
+height:26px;
+font:bold 12px/26px Arial, san-serif;
+display:inline-block;
+vertical-align:top;
+*display:inline;
+*zoom:1;
+
+}
+.DeleteGroup input[type=text]{
+  width: 82%;
+}
+.DeleteGroup input {
+  width:200px; height:35px;
+  margin-left:35px;
+  margin-top:20px;
+  border-radius:7px;
+  padding:10px;
+}
+.DeleteGroup input[type=submit] {
+margin:15px 0px 0 0;
+padding:3px 10px;
+float:right;
+background:#ccc;
+border:0;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+font:bold 10px Arial, san-serif;
+text-transform:uppercase;
+position:relative;
+cursor:pointer;
+margin-top:10px;
+height:25px;
+width:60px;  
+}
+.DeleteGroup input[type=submit]:hover {
+color:#fff;
+}
+
+
+/*DeleteSubject*/
+
+.DeleteSubject {
+padding:5px 15px 15px;
+position:fixed;
+top:190px;
+left:50%;
+display:none;
+overflow:hidden;
+border:2px solid black;
+background:#adb8bb;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+margin-left:-160px;
+width:300px;
+height:185px;
+}
+.DeleteSubject h2 {
+font:bold 18px/32px Arial, san-serif;
+
+text-align:center;
+}
+.DeleteSubject a.close {
+width:16px;
+height:16px;
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:10px;
+right:10px;
+background:url(../image/close.png) no-repeat;
+}
+
+.DeleteSubject form {
+margin-top:10px;
+}
+.DeleteSubject label {
+width:100px;
+height:26px;
+font:bold 12px/26px Arial, san-serif;
+display:inline-block;
+vertical-align:top;
+*display:inline;
+*zoom:1;
+
+}
+.DeleteSubject input[type=text]{
+  width: 82%;
+}
+.DeleteSubject input {
+  width:200px; height:35px;
+  margin-left:35px;
+  margin-top:20px;
+  border-radius:7px;
+  padding:10px;
+}
+.DeleteSubject input[type=submit] {
+margin:15px 0px 0 0;
+
+padding:3px 10px;
+float:right;
+background:#ccc;
+border:0;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+font:bold 10px Arial, san-serif;
+text-transform:uppercase;
+position:relative;
+cursor:pointer;
+margin-top:10px;
+height:25px;
+width:60px;  
+}
+.DeleteSubject input[type=submit]:hover {
+color:#fff;
+}
+
+
+
+/*DeleteTeacher*/
+
+.DeleteTeacher {
+padding:5px 15px 15px;
+position:fixed;
+top:190px;
+left:50%;
+display:none;
+overflow:hidden;
+border:2px solid black;
+background:#adb8bb;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+margin-left:-160px;
+width:300px;
+height:185px;
+}
+.DeleteTeacher h2 {
+font:bold 18px/32px Arial, san-serif;
+text-align:center;
+}
+.DeleteTeacher a.close {
+width:16px;
+height:16px;
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:10px;
+right:10px;
+background:url(../image/close.png) no-repeat;
+}
+
+.DeleteTeacher form {
+margin-top:10px;
+}
+.DeleteTeacher label {
+width:100px;
+height:26px;
+font:bold 12px/26px Arial, san-serif;
+display:inline-block;
+vertical-align:top;
+*display:inline;
+*zoom:1;
+
+}
+.DeleteTeacher input[type=text]{
+  width: 82%;
+}
+.DeleteTeacher input {
+  width:200px; height:35px;
+  margin-left:35px;
+  margin-top:20px;
+  border-radius:7px;
+  padding:10px;
+}
+.DeleteTeacher input[type=submit] {
+margin:15px 0px 0 0;
+
+padding:3px 10px;
+float:right;
+background:#ccc;
+border:0;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+font:bold 10px Arial, san-serif;
+text-transform:uppercase;
+position:relative;
+cursor:pointer;
+margin-top:10px;
+height:25px;
+width:60px;  
+}
+.DeleteTeacher input[type=submit]:hover {
+color:#fff;
+}
+
+/*DeleteSchedule*/
+
+#selectSchedule{
+  position: relative;
+  right:16px;
+}
+
+.DeleteSchedule {
+padding:5px 15px 15px;
+position:fixed;
+top:190px;
+left:50%;
+display:none;
+overflow:hidden;
+border:2px solid black;
+background:#adb8bb;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+margin-left:-195px;
+width:400px;
+height:185px;
+}
+.DeleteSchedule h2 {
+font:bold 18px/32px Arial, san-serif;
+text-align:center;
+}
+.DeleteSchedule a.close {
+width:16px;
+height:16px;
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:10px;
+right:10px;
+background:url(../image/close.png) no-repeat;
+}
+
+.DeleteSchedule form {
+margin-top:10px;
+}
+.DeleteTeacher label {
+width:100px;
+height:26px;
+font:bold 12px/26px Arial, san-serif;
+display:inline-block;
+vertical-align:top;
+*display:inline;
+*zoom:1;
+
+}
+.DeleteSchedule input[type=text]{
+  width: 82%;
+}
+.DeleteSchedule input {
+  width:200px; height:35px;
+  margin-left:35px;
+  margin-top:20px;
+  border-radius:7px;
+  padding:10px;
+}
+.DeleteSchedule input[type=submit] {
+margin:15px 0px 0 0;
+
+padding:3px 10px;
+float:right;
+background:#ccc;
+border:0;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+font:bold 10px Arial, san-serif;
+text-transform:uppercase;
+position:relative;
+cursor:pointer;
+margin-top:10px;
+height:25px;
+width:60px;  
+}
+.DeleteSchedule input[type=submit]:hover {
+color:#fff;
+}
+
+
+
+
+/**********ALERT FINISH**********/
+
+
+@media only screen and (min-width : 1024px) and (max-width : 2000px) {
+  #time_item{
+    display: none;
+  }
+  }

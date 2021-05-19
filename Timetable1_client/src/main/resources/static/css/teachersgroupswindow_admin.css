@@ -1,0 +1,369 @@
+@media only screen 
+and (max-width : 480px) {
+  body{
+    width: 400px;
+  }
+  /*---navigation bar start---*/
+ header{
+  margin-top: -170px;
+  width: 130%;
+ }
+  .logo{
+  position: relative;
+ width:150px;
+ bottom: 10px;
+ }
+  .Time{
+  margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+  bottom: -150px;
+ }
+ 
+.fa { 
+  transform: scale(1.8,1.5); 
+}
+
+.showing{
+    max-height: 45em;
+  }
+ .menu-icon{
+    position: relative;
+    display: block;
+    bottom:10px;
+  }
+
+  nav ul{
+    max-height: 0px;
+    position: relative;
+    height: 165px;
+    right: 5px;
+    width: 100%;
+  }
+
+  
+
+  nav ul li{
+    box-sizing: border-box;
+    width: 110%;
+    text-align: left;
+    font-size: 1.0em;
+    padding: 9px;
+  }
+
+  #Logout{
+    
+    
+    position:relative;
+    width: 65px;
+    bottom:120px;
+    height: 38px;
+    float: right;
+    margin-right: 145px;
+    font-size: 1.0em;
+  }
+
+
+
+ #Search {
+  position: relative;
+ float: left;
+ width: 50%; 
+ height: 10%;
+ font-size: 1.4em;
+ left:4px;
+ }
+
+.selectlist{
+  margin-right: -55px;
+}
+ .select{
+  position: relative;
+  width: 40%;
+  
+  font-size: 1em;
+  margin-bottom: 25px;
+ }
+ option{
+  font-size: 1em;
+ }
+ 
+
+ /*---navigation bar finish---*/
+
+
+/*---section bar start---*/
+.week_item{
+  position:flex;
+  text-align:left;
+  margin-left: -130px;
+  padding-left: 10px;
+  margin-top:-210px;
+  width: 520px;
+  
+  
+  
+ }
+ .time1{
+   position: relative;
+  background-color: white;
+  font-size:1.0em;
+  margin-left: -120px;
+  width: 110px;
+  height: 215px;
+  top:-140px;
+  border-right: 1px solid black;
+ }
+ .time1 p{
+  position:relative;
+ top:75px;
+ left: 12px;
+ }
+ .items1{
+  position: relative;
+  top:-120px;
+  margin-left: 50px;
+ }
+
+ .day_item{
+
+ display: inline-block;
+ margin-top:10px;
+ margin-left: -19px;
+ padding-top: 140px;
+ width: 409px;
+ height: 215px;
+ position:relative;
+
+ 
+ }
+ .day_item2{
+
+ display: inline-block;
+ margin-top:-70px;
+ margin-left: 28px;
+ padding-top: 140px;
+ width: 409px;
+ height: 215px;
+ position:relative;
+  
+ }
+
+ .day_item3{
+ display: inline-block;
+ margin-top:-70px;
+ margin-left: 28px;
+ padding-top: 140px;
+width: 409px;
+ height: 215px;
+ position:relative;
+ }
+ .pencil{
+  position: relative;
+margin-left: 160px;
+bottom: 30px;
+
+
+ }
+ #pen{
+  position: relative;
+  width: 7%;
+  cursor: pointer;
+
+ }
+ #weekdays{
+  position: relative;
+  margin-bottom: -65px;
+ }
+
+
+
+
+
+
+
+
+
+
+ /*---section bar finish---*/
+ }
+@media only screen 
+and (min-width : 481px) and (max-width : 768px) {
+	/*Nav bar Start*/
+  body{
+    width: 580px;
+  }
+ header{
+  margin-top: -210px;
+  width: 130%;
+ }
+ .logo{
+  position: relative;
+  width:170px;
+  
+ }
+ .Time{
+ margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  bottom: -168px;
+ }
+ nav ul{
+  position: relative;
+  margin-left: 0px;
+  width: 100%;
+ }
+ nav ul li{
+  position: relative;
+  font-size: 1.3em;
+  right:1px;
+  padding: 5px;
+ }
+ #Logout{
+  position: relative;
+  bottom: 135px;
+ 
+  width: 70px;
+  float: right;
+  height: 30px;
+  margin-right: 160px;
+  font-size: 1.1em;
+ }
+
+    
+ #Search{
+  position: relative;
+
+  width: 250px;
+  height: 30px;
+  bottom: 1px;
+  margin-right: 2px;
+  font-size: 1.5em;
+ }
+ /*Nav bar Finish*/
+ /*Section Start*/
+ #connn{
+ 	
+ 	margin-left: -20px;
+ 	position: relative;
+ 	float: center;
+ }
+.Mondaygroup{
+  position: relative;
+margin-right: 1000px;
+margin-left: 50px;
+margin-top: -860px;
+
+
+}
+.Tuesdaygroup{
+position: relative;
+margin-left: 470px;
+margin-top: -1780px;
+margin-right: -120px;
+
+}
+.Wednesdaygroup{
+position: relative;
+margin-right: 600px;
+margin-left: 65px;
+margin-top: -880px;
+}
+.Thursdaygroup{
+position: relative;
+margin-left: 478px;
+
+margin-top: -1780px;
+margin-right: -120px;
+}
+.Fridaygroup{
+  position: relative;
+margin-right: 500px;
+margin-left: 75px;
+margin-top: -870px;
+}
+.Saturdaygroup{
+position: relative;
+margin-left: 488px;
+
+margin-top: -1780px;
+margin-right: -120px;
+}
+.time1{
+  position: relative;
+  font-size: 1em;
+  top: -80px;
+  margin-left: -110px;
+  width: 50%;
+}
+.time1 p{
+  position: relative;
+  right: -20px;
+}
+.items1{
+ position: relative; 
+ font-size: 1.1em;
+ 
+}
+.week_item{
+  position: relative;
+  
+  width: 220px;
+   height: 45px;
+   font-size: 1.2em;
+   margin-left: -90px;
+   bottom: -820px;
+}
+.day_item{
+  position: relative;
+  
+  width: 220px;
+ height: 220px;
+ padding-top: 140px;
+ margin-left: -85px;
+bottom: -750px;
+}
+
+.day_item2{
+  position: relative;
+ 
+  width: 220px;
+ height: 220px;
+ padding-top: 140px;
+ margin-left: -38px;
+bottom: -460px;
+}
+
+.day_item3{
+  position: relative;
+ bottom: 60px;
+  width: 220px;
+ height: 220px;
+ padding-top: 140px;
+margin-left: -35px;
+
+}
+
+
+
+
+
+
+.pencil{
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+  width: 30%;
+}
+#pen{
+position: relative;
+width: 30%;
+}
+
+ /*Section Finish*/
+
+}

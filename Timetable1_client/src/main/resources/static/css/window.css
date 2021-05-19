@@ -1,0 +1,1112 @@
+/*--------max-width  : 370px ----------*/
+ @media only screen 
+ and (max-width : 370px) {
+  body{
+    width: 300px;
+  }
+  /*---navigation bar start---*/
+ header{
+  margin-top: -170px;
+  width: 125%;
+ }
+  .logo{
+  position: relative;
+ width:150px;
+ bottom: -30px;
+ }
+  .Time{
+  margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+  bottom: -185px;
+ }
+ 
+ .fa { 
+  transform: scale(1.8,1.5); 
+ }
+
+ .showing{
+    max-height: 45em;
+  }
+ .menu-icon{
+    position: relative;
+    display: block;
+    bottom:10px;
+  }
+
+  nav ul{
+    max-height: 0px;
+    position: relative;
+    height: 165px;
+    right: 5px;
+    width: 100%;
+  }
+
+  
+
+  nav ul li{
+    box-sizing: border-box;
+    width: 110%;
+    text-align: left;
+    font-size: 1.0em;
+    padding: 9px;
+  }
+  nav ul li:hover{
+ border-bottom: none;
+ }
+
+ .active {
+    
+   border-bottom: none;
+    
+ }
+
+  #Logout{
+    
+    
+    position:relative;
+    width: 65px;
+    bottom:80px;
+    height: 38px;
+    float: right;
+    margin-right: 145px;
+    font-size: 1.0em;
+  }
+
+
+
+ #Search {
+  position: relative;
+ float: left;
+ width: 50%; 
+ height: 10%;
+ font-size: 1.4em;
+ left:4px;
+ }
+
+.rate{
+width: 30%;
+margin-left: 108px;
+margin-top: 5px;
+}
+
+#rate{
+position: relative;
+left: 25px;
+cursor: pointer;
+}
+ 
+
+ /*---navigation bar finish---*/
+
+
+ /*---section bar start---*/
+ .week_item{
+  position:flex;
+  text-align:left;
+  margin-left: -130px;
+  padding-left: 10px;
+  margin-top:-210px;
+  width: 375px;
+  
+  
+  
+ }
+ .time1{
+   position: relative;
+  background-color: white;
+  font-size:1.0em;
+  margin-left: -120px;
+  width: 110px;
+  height: 215px;
+  top:-140px;
+  border-right: 1px solid black;
+ }
+ .time1 p{
+  position:relative;
+ top:75px;
+ left: 12px;
+ }
+ .items1{
+  position: relative;
+  top:-150px;
+ }
+
+ .day_item{
+
+ display: inline-block;
+ margin-top:10px;
+ margin-left: -19px;
+ padding-top: 140px;
+ width: 265px;
+ height: 215px;
+ position:relative;
+
+ 
+ }
+ .day_item2{
+
+ display: inline-block;
+ margin-top:-100px;
+ margin-left: 28px;
+ padding-top: 140px;
+ width: 265px;
+ height: 215px;
+ position:relative;
+  
+ }
+
+ .day_item3{
+ display: inline-block;
+ margin-top:-100px;
+ margin-left: 28px;
+ padding-top: 140px;
+ width: 265px;
+ height: 215px;
+ position:relative;
+ }
+ .pencil{
+  position: relative;
+ margin-left: 160px;
+ bottom: 30px;
+
+
+ }
+ #pen{
+  position: relative;
+  width: 25%;
+  cursor: pointer;
+
+ }
+ #weekdays{
+  position: relative;
+  margin-bottom: -95px;
+ }
+
+
+
+ /**********ALERT START**********/
+ .topicnote{
+  width: 320px;
+   height: 380px;
+
+ }
+ .topicnote textarea{
+  width:250px; height:150px;
+ }
+ .topicnote input[type=text]{
+  width: 88%;
+ }
+ .topicnote input[type=submit] {
+  position: relative;
+  bottom: 30px;
+  left: 5px;
+ }
+ #close{
+  width: 120%;
+}
+.closeb{
+  width: 10%;
+   margin-left: 260px;
+}
+ /**********ALERT FINISH**********/
+
+.select3{
+  width: 30%;
+}
+.select4{
+  width: 30%;
+  margin-left: -89px;
+}
+.select5{
+  position: relative;
+  width: 30%;
+  margin-left: 250px;
+top: -35px;
+margin-bottom: -125px;
+}
+ /*---section bar finish---*/
+ }
+
+/*--------(min-width : 370px) and (max-width : 480px)----------*/
+ @media only screen 
+ and (min-width : 370px) and (max-width : 480px) {
+   body{
+    width: 400px;
+  }
+  /*---navigation bar start---*/
+ header{
+  margin-top: -170px;
+  width: 125%;
+ }
+  .logo{
+  position: relative;
+ width:150px;
+ bottom: -30px;
+ }
+  .Time{
+  margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+  bottom: -185px;
+ }
+ 
+ .fa { 
+  transform: scale(1.8,1.5); 
+ }
+
+ .showing{
+    max-height: 45em;
+  }
+ .menu-icon{
+    position: relative;
+    display: block;
+    bottom:10px;
+  }
+
+  nav ul{
+    max-height: 0px;
+    position: relative;
+    height: 165px;
+    right: 5px;
+    width: 100%;
+  }
+
+  
+
+  nav ul li{
+    box-sizing: border-box;
+    width: 110%;
+    text-align: left;
+    font-size: 1.0em;
+    padding: 9px;
+  }
+  nav ul li:hover{
+ border-bottom: none;
+ }
+
+ .active {
+    
+   border-bottom: none;
+    
+ }
+  #Logout{
+    
+    
+    position:relative;
+    width: 65px;
+    bottom:80px;
+    height: 38px;
+    float: right;
+    margin-right: 145px;
+    font-size: 1.0em;
+  }
+
+
+
+ #Search {
+  position: relative;
+ float: left;
+ width: 50%; 
+ height: 10%;
+ font-size: 1.4em;
+ left:4px;
+ }
+
+.rate{
+width: 30%;
+margin-left: 170px;
+margin-top: 5px;
+}
+
+#rate{
+position: relative;
+left: 25px;
+cursor: pointer;
+}
+ 
+
+ /*---navigation bar finish---*/
+
+
+ /*---section bar start---*/
+ .week_item{
+  position:flex;
+  text-align:left;
+  margin-left: -130px;
+  padding-left: 10px;
+  margin-top:-210px;
+  width: 500px;
+  
+  
+  
+ }
+ .time1{
+   position: relative;
+  background-color: white;
+  font-size:1.0em;
+  margin-left: -120px;
+  width: 110px;
+  height: 215px;
+  top:-140px;
+  border-right: 1px solid black;
+ }
+ .time1 p{
+  position:relative;
+ top:75px;
+ left: 12px;
+ }
+ .items1{
+  position: relative;
+  top:-150px;
+ }
+
+ .day_item{
+
+ display: inline-block;
+ margin-top:10px;
+ margin-left: -19px;
+ padding-top: 140px;
+ width: 390px;
+ height: 215px;
+ position:relative;
+
+ 
+ }
+ .day_item2{
+
+ display: inline-block;
+ margin-top:-100px;
+ margin-left: 28px;
+ padding-top: 140px;
+ width: 390px;
+ height: 215px;
+ position:relative;
+  
+ }
+
+ .day_item3{
+ display: inline-block;
+ margin-top:-100px;
+ margin-left: 28px;
+ padding-top: 140px;
+ width: 390px;
+ height: 215px;
+ position:relative;
+ }
+ .pencil{
+  position: relative;
+ margin-left: 160px;
+ bottom: 30px;
+
+
+ }
+ #pen{
+  position: relative;
+  width: 7%;
+  cursor: pointer;
+
+ }
+ #weekdays{
+  position: relative;
+  margin-bottom: -95px;
+ }
+ /**********ALERT START**********/
+ .topicnote{
+  width: 320px;
+   height: 380px;
+ }
+ .topicnote textarea{
+  width:250px; height:150px;
+ }
+ .topicnote input[type=text]{
+  width: 88%;
+ }
+ .topicnote input[type=submit] {
+  position: relative;
+  bottom: 30px;
+  left: 7px;
+ }
+  #close{
+  width: 120%;
+}
+.closeb{
+  width: 10%;
+   margin-left: 260px;
+}
+ /**********ALERT FINISH**********/
+ 
+.select3{
+  width: 30%;
+}
+.select4{
+  width: 30%;
+}
+.select5{
+  position: relative;
+  width: 30%;
+top: 0px;
+left: 260px;
+margin-bottom: 1px;
+
+}
+ /*---section bar finish---*/
+ }
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-width : 481px) and (max-width : 760px) {
+	/*Nav bar Start*/
+  body{
+    width: 580px;
+  }
+ header{
+  margin-top: -210px;
+  width: 131%;
+ }
+ .logo{
+  position: relative;
+  width:170px;
+  
+ }
+ .Time{
+ margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  bottom: -168px;
+ }
+ nav ul{
+  position: relative;
+  margin-left: 0px;
+  width: 100%;
+ }
+ nav ul li{
+  position: relative;
+  font-size: 1.3em;
+  right:1px;
+  padding: 15px;
+ }
+ #Logout{
+  position: relative;
+  bottom: 135px;
+ 
+  width: 70px;
+  float: right;
+  height: 30px;
+  margin-right: 160px;
+  font-size: 1.1em;
+ }
+
+    
+ #Search{
+  position: relative;
+
+  width: 250px;
+  height: 30px;
+  bottom: -10px;
+  margin-right: 2px;
+  font-size: 1.5em;
+ }
+
+ .select{
+  position: relative;
+  width: 20%;
+  font-size: 1em;
+  margin-left: -12px;
+ }
+ .select1{
+  width: 28%;
+ }
+ .select2{
+  right: -20px;
+  width: 28%;
+ }
+ .select3{
+  margin-right: 18px;
+ }
+ .select4{
+  margin-right: 18px;
+ }
+ option{
+  font-size: 1em;
+ }
+ .tgname{
+  position: relative;
+  margin-left: 250px;
+  width: 50%;
+  margin-bottom:32px; 
+ }
+ /*Nav bar Finish*/
+ /*Section Start*/
+ #connn{
+ 	
+ 	margin-left: -20px;
+ 	position: relative;
+ 	float: center;
+ }
+.Mondaygroup{
+  position: relative;
+margin-right: 1000px;
+margin-left: 50px;
+margin-top: -860px;
+
+
+}
+.Tuesdaygroup{
+position: relative;
+margin-left: 470px;
+margin-top: -1770px;
+margin-right: -120px;
+
+}
+.Wednesdaygroup{
+position: relative;
+margin-right: 600px;
+margin-left: 65px;
+margin-top: -880px;
+}
+.Thursdaygroup{
+position: relative;
+margin-left: 478px;
+
+margin-top: -1770px;
+margin-right: -120px;
+}
+.Fridaygroup{
+  position: relative;
+margin-right: 500px;
+margin-left: 75px;
+margin-top: -870px;
+}
+.Saturdaygroup{
+position: relative;
+margin-left: 488px;
+
+margin-top: -1770px;
+margin-right: -120px;
+}
+.time1{
+  position: relative;
+  font-size: 1em;
+  top: -80px;
+  margin-left: -110px;
+  width: 50%;
+}
+.time1 p{
+  position: relative;
+  right: -20px;
+}
+.items1{
+ position: relative; 
+ font-size: 1.1em;
+ 
+}
+.week_item{
+  position: relative;
+  
+  width: 220px;
+   height: 36px;
+   font-size: 1.2em;
+   margin-left: -90px;
+   bottom: -820px;
+}
+.day_item{
+  position: relative;
+  
+  width: 220px;
+ height: 220px;
+ padding-top: 140px;
+ margin-left: -85px;
+bottom: -750px;
+}
+
+.day_item2{
+  position: relative;
+ 
+  width: 220px;
+ height: 220px;
+ padding-top: 140px;
+ margin-left: -38px;
+bottom: -460px;
+}
+
+.day_item3{
+  position: relative;
+ bottom: 60px;
+  width: 220px;
+ height: 220px;
+ padding-top: 140px;
+margin-left: -35px;
+
+}
+
+
+
+
+
+
+.pencil{
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+  width: 30%;
+}
+#pen{
+position: relative;
+width: 30%;
+}
+/**********ALERT START**********/
+.topicnote{
+  width: 320px;
+   height: 380px;
+}
+.topicnote textarea{
+  width:250px; height:150px;
+}
+.topicnote input[type=text]{
+  width: 88%;
+}
+.topicnote input[type=submit] {
+  position: relative;
+  bottom: 30px;
+  left: 6px;
+}
+#close{
+  width: 120%;
+}
+.closeb{
+  width: 10%;
+   margin-left: 260px;
+}
+/**********ALERT FINISH**********/
+ /*Section Finish*/
+
+}
+
+
+  @media only screen and (min-width : 761px) and (max-width : 890px){
+    /*Nav bar Start*/
+    body{
+      width: 627px;
+    }
+ header{
+  margin-top: -210px;
+  width: 142%;
+ }
+ .logo{
+  position: relative;
+  width:180px;
+  
+ }
+ .Time{
+ margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  bottom: -180px;
+ }
+ nav ul{
+  position: relative;
+  margin-left: -76px;
+  width: 122%;
+ }
+ nav ul li{
+  position: relative;
+  font-size: 1.5em;
+  right:-5px;
+ }
+ #Logout{
+  position: relative;
+  bottom: 135px;
+  left: 75px;
+  width: 90px;
+  float: right;
+  height: 35px;
+  font-size: 1.3em;
+ }
+
+    
+ #Search{
+  position: relative;
+  width: 250px;
+  height: 40px;
+  bottom: -15px;
+  left: 40px;
+  font-size: 1.9em;
+ }
+ .selectlist{
+  margin-left: -4px;
+ }
+.select{
+  position: relative;
+  width: 18%;
+  font-size: 1.4em;
+  margin-left: -12px;
+ }
+  .select1{
+  width: 25%;
+ }
+ .select2{
+  right: -20px;
+  width: 25%;
+ }
+ .select3{
+  margin-right: 18px;
+ }
+ .select4{
+  margin-right: 18px;
+ }
+
+ option{
+  font-size: 0.6em;
+ }
+ .tgname{
+  position: relative;
+  margin-left: 280px;
+  width: 50%;
+  margin-bottom:32px; 
+ }
+ /*Nav bar Finish*/
+  /*Section Start*/
+.Mondaygroup{
+  position: relative;
+margin-right: 600px;
+margin-top: -750px;
+left: 82px;
+
+
+}
+.Tuesdaygroup{
+position: relative;
+margin-left: 530px;
+margin-top: -1995px;
+
+}
+.Wednesdaygroup{
+position: relative;
+margin-right: 600px;
+margin-top: -700px;
+left: 82px;
+}
+.Thursdaygroup{
+position: relative;
+margin-left: 530px;
+
+margin-top: -1995px;
+}
+.Fridaygroup{
+  position: relative;
+margin-right: 500px;
+left: 82px;
+margin-top: -700px;
+}
+.Saturdaygroup{
+position: relative;
+margin-left: 530px;
+
+margin-top: -1995px;
+}
+.time1{
+  position: relative;
+  
+  top: -50px;
+}
+.time1 p{
+  position: relative;
+  right: -20px;
+}
+.items1{
+ position: relative; 
+ font-size: 1.4em;
+ 
+}
+.week_item{
+  position: relative;
+  
+  width: 290px;
+   height: 45px;
+   font-size: 1.5em;
+   margin-left: -83px;
+   bottom: -750px;
+}
+.day_item{
+  position: relative;
+  
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+ margin-left: -85px;
+bottom: -720px;
+}
+
+.day_item2{
+  position: relative;
+ 
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+ margin-left: -38px;
+bottom: -480px;
+}
+
+.day_item3{
+  position: relative;
+ 
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+margin-left: -35px;
+
+}
+
+
+
+
+
+
+.pencil{
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+  width: 30%;
+}
+#pen{
+position: relative;
+width: 30%;
+}
+/**********ALERT START**********/
+.topicnote{
+  width: 320px;
+   height: 380px;
+}
+.topicnote textarea{
+  width:250px; height:150px;
+}
+.topicnote input[type=text]{
+  width: 88%;
+}
+.topicnote input[type=submit] {
+  position: relative;
+  bottom: 30px;
+  left: 6px;
+}
+#close{
+  width: 120%;
+}
+.closeb{
+  width: 10%;
+   margin-left: 260px;
+}
+/**********ALERT FINISH**********/
+ /*Section Finish*/
+ 
+  }
+  @media only screen and (min-width : 890px) and (max-width : 990px){
+    /*Nav bar Start*/
+    body{
+      width: 698px;
+    }
+ header{
+  margin-top: -210px;
+  width: 142%;
+ }
+ .logo{
+  position: relative;
+  width:180px;
+  
+ }
+ .Time{
+ margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  bottom: -180px;
+ }
+ nav ul{
+  position: relative;
+  margin-left: -76px;
+  width: 122%;
+ }
+ nav ul li{
+  position: relative;
+  font-size: 1.5em;
+  right:-2px;
+ }
+ #Logout{
+  position: relative;
+  bottom: 135px;
+  left: 75px;
+  width: 100px;
+  float: right;
+  height: 50px;
+  font-size: 1.5em;
+ }
+
+    
+ #Search{
+  position: relative;
+  width: 250px;
+  height: 40px;
+  bottom: -15px;
+  left: 40px;
+  font-size: 1.9em;
+ }
+.selectlist{
+  margin-left: 34px;
+}
+
+
+.select{
+  position: relative;
+  width: 18%;
+  font-size: 1.3em;
+  margin-left: 0px;
+ }
+ .select1{
+  width: 28%;
+ }
+ .select2{
+  right: -9px;
+  width: 28%;
+ }
+ .select3{
+  margin-right: 7px;
+ }
+ .select4{
+  margin-right: 18px;
+ }
+ option{
+  font-size: 0.6em;
+ }
+ .tgname{
+  position: relative;
+  margin-left: 330px;
+  width: 50%;
+  margin-bottom:32px; 
+ }
+ /*Nav bar Finish*/
+  /*Section Start*/
+.Mondaygroup{
+  position: relative;
+margin-right: 600px;
+margin-top: -750px;
+left: 82px;
+
+
+}
+.Tuesdaygroup{
+position: relative;
+margin-left: 600px;
+margin-top: -1995px;
+
+}
+.Wednesdaygroup{
+position: relative;
+margin-right: 600px;
+margin-top: -700px;
+left: 82px;
+}
+.Thursdaygroup{
+position: relative;
+margin-left: 600px;
+
+margin-top: -1995px;
+}
+.Fridaygroup{
+  position: relative;
+margin-right: 500px;
+left: 82px;
+margin-top: -700px;
+}
+.Saturdaygroup{
+position: relative;
+margin-left: 600px;
+
+margin-top: -1995px;
+}
+.time1{
+  position: relative;
+  
+  top: -50px;
+}
+.time1 p{
+  position: relative;
+  right: -20px;
+}
+.items1{
+ position: relative; 
+ font-size: 1.4em;
+ 
+}
+.week_item{
+  position: relative;
+  
+  width: 290px;
+   height: 45px;
+   font-size: 1.5em;
+   margin-left: -83px;
+   bottom: -750px;
+}
+.day_item{
+  position: relative;
+  
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+ margin-left: -85px;
+bottom: -720px;
+}
+
+.day_item2{
+  position: relative;
+ 
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+ margin-left: -38px;
+bottom: -480px;
+}
+
+.day_item3{
+  position: relative;
+ 
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+margin-left: -35px;
+
+}
+
+
+
+
+
+
+.pencil{
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+  width: 30%;
+}
+#pen{
+position: relative;
+width: 30%;
+}
+
+ /*Section Finish*/
+ 
+  }

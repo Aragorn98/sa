@@ -1,0 +1,561 @@
+/*600px-768px start///////////////////////////////////////////////*/
+ @media only screen and (min-device-width : 601px) and (max-device-width : 768px){
+  /*Nav bar Start*/
+ header{
+  margin-top: -210px;
+ }
+ .logo{
+  position: relative;
+  width:180px;
+  
+ }
+ .Time{
+ margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  bottom: -180px;
+ }
+ nav ul{
+  position: relative;
+  margin-left: -76px;
+  width: 125%;
+ }
+ nav ul li{
+  position: relative;
+  font-size: 1.5em;
+  right:15px;
+ }
+ #Logout{
+  position: relative;
+  bottom: 135px;
+  left: 75px;
+  width: 100px;
+  float: right;
+  height: 50px;
+  font-size: 1.5em;
+ }
+
+    
+ #Search{
+  position: relative;
+  width: 250px;
+  height: 40px;
+  bottom: -15px;
+  left: 40px;
+  font-size: 1.9em;
+ }
+
+  .select{
+  position: relative;
+  width: 30%;
+  
+  font-size: 1.4em;
+ }
+ option{
+  font-size: 0.6em;
+ }
+ /*Nav bar Finish*/
+ /*Section Start*/
+.Mondaygroup{
+  position: relative;
+margin-right: 600px;
+margin-top: -750px;
+
+
+}
+.Tuesdaygroup{
+position: relative;
+margin-left: 500px;
+margin-top: -1995px;
+
+}
+.Wednesdaygroup{
+position: relative;
+margin-right: 600px;
+margin-top: -700px;
+}
+.Thursdaygroup{
+position: relative;
+margin-left: 500px;
+
+margin-top: -1995px;
+}
+.Fridaygroup{
+  position: relative;
+margin-right: 500px;
+
+margin-top: -700px;
+}
+.Saturdaygroup{
+position: relative;
+margin-left: 500px;
+
+margin-top: -1995px;
+}
+.time1{
+  position: relative;
+  
+  top: -50px;
+}
+.time1 p{
+  position: relative;
+  right: -20px;
+}
+.items1{
+ position: relative; 
+ font-size: 1.4em;
+ 
+}
+.week_item{
+  position: relative;
+  
+  width: 290px;
+   height: 45px;
+   font-size: 1.5em;
+   margin-left: -90px;
+   bottom: -750px;
+}
+.day_item{
+  position: relative;
+  
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+ margin-left: -85px;
+bottom: -720px;
+}
+
+.day_item2{
+  position: relative;
+ 
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+ margin-left: -38px;
+bottom: -480px;
+}
+
+.day_item3{
+  position: relative;
+ 
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+margin-left: -35px;
+
+}
+
+
+
+
+
+
+.pencil{
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+  width: 30%;
+}
+#pen{
+position: relative;
+width: 30%;
+}
+
+ /*Section Finish*/
+
+ }
+/*600px-768px finish///////////////////////////////////////////////*/
+
+/*768px-990px start///////////////////////////////////////////////*/
+ @media only screen and (min-device-width : 769px) and (max-device-width : 990px){
+ /*Nav bar Start*/
+ header{
+  margin-top: -210px;
+ }
+ .logo{
+  position: relative;
+  width:180px;
+  
+ }
+ .Time{
+ margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  bottom: -180px;
+ }
+ nav ul{
+  position: relative;
+  margin-left: -76px;
+  width: 125%;
+ }
+ nav ul li{
+  position: relative;
+  font-size: 1.5em;
+  right:15px;
+ }
+ #Logout{
+  position: relative;
+  bottom: 135px;
+  left: 75px;
+  width: 100px;
+  float: right;
+  height: 50px;
+  font-size: 1.5em;
+ }
+
+    
+ #Search{
+  position: relative;
+  width: 250px;
+  height: 40px;
+  bottom: -15px;
+  left: 40px;
+  font-size: 1.9em;
+ }
+
+  .select{
+  position: relative;
+  width: 30%;
+  
+  font-size: 1.4em;
+ }
+ option{
+  font-size: 0.6em;
+ }
+ /*Nav bar Finish*/
+  /*Section Start*/
+.Mondaygroup{
+  position: relative;
+margin-right: 600px;
+margin-top: -750px;
+
+
+}
+.Tuesdaygroup{
+position: relative;
+margin-left: 500px;
+margin-top: -1995px;
+
+}
+.Wednesdaygroup{
+position: relative;
+margin-right: 600px;
+margin-top: -700px;
+}
+.Thursdaygroup{
+position: relative;
+margin-left: 500px;
+
+margin-top: -1995px;
+}
+.Fridaygroup{
+  position: relative;
+margin-right: 500px;
+
+margin-top: -700px;
+}
+.Saturdaygroup{
+position: relative;
+margin-left: 500px;
+
+margin-top: -1995px;
+}
+.time1{
+  position: relative;
+  
+  top: -50px;
+}
+.time1 p{
+  position: relative;
+  right: -20px;
+}
+.items1{
+ position: relative; 
+ font-size: 1.4em;
+ 
+}
+.week_item{
+  position: relative;
+  
+  width: 290px;
+   height: 45px;
+   font-size: 1.5em;
+   margin-left: -90px;
+   bottom: -750px;
+}
+.day_item{
+  position: relative;
+  
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+ margin-left: -85px;
+bottom: -720px;
+}
+
+.day_item2{
+  position: relative;
+ 
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+ margin-left: -38px;
+bottom: -480px;
+}
+
+.day_item3{
+  position: relative;
+ 
+  width: 290px;
+ height: 290px;
+ padding-top: 140px;
+margin-left: -35px;
+
+}
+
+
+
+
+
+
+.pencil{
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+  width: 30%;
+}
+#pen{
+position: relative;
+width: 30%;
+}
+
+ /*Section Finish*/
+ 
+ }
+ /*768px-990px finish///////////////////////////////////////////////*/
+
+/*990px-1024px start///////////////////////////////////////////////*/
+ @media only screen and (min-width : 991px) and (max-width : 1024px) {
+ /*--------NAV BAR START--------*/
+ header{
+  width: 110%;
+  margin-top: -300px;
+ }
+ nav ul{
+  position: relative;
+  width: 107%;
+ }
+ .logo{
+  position: relative;
+  bottom: -50px;
+ }
+ #Search{
+  position: relative;
+  margin-right: 10px;
+
+ }
+  #Logout{
+  position:relative;
+  text-align: center;
+  height: 37px;
+  top: -77px;
+  margin-left: 750px;
+  }
+ .Time{
+    position: relative;
+    bottom: -135px;
+  }
+  /*--------NAV BAR FINISH--------*/
+
+ /*--------SECTION START--------*/
+   #time_item{
+    display: none;
+  }
+ .week_item{
+    position: relative;
+    
+    width: 130px;
+    margin-right: 42px;
+    left:140px;
+   
+  }
+  .time1{
+    position: relative;
+   
+    margin-left: -125px;
+    width: 100px;
+  }
+  .day_item{
+ position: relative;
+ display:inline-block;
+ margin-top: 105px;
+ width: 130px;
+ left: 140px;
+ font-size: 1em;
+ height: 190px;
+
+  }
+  .day_item2{
+     display:inline-block;
+ position: relative;
+
+ margin-bottom: 105px;
+ width: 130px;
+ left: 132px;
+ font-size: 1em;
+ height: 190px;
+
+  }
+  .day_item3{
+    display:inline-block;
+ position: relative;
+
+ bottom: 10px;
+ width: 130px;
+ left: 132px;
+ font-size: 1em;
+ height: 190px;
+  }
+
+  #pen{
+    position:relative;
+    cursor: pointer;
+    width: 20%;
+  }
+  .pencil {
+    position:relative;
+    margin-left: 29px;
+    right: -56px;
+    bottom: 8px;
+
+  }
+
+
+  /*--------SECTION FINISH--------*/
+ }
+/*990px-1024px finish///////////////////////////////////////////////*/
+
+/*1024px-1200px start///////////////////////////////////////////////*/
+ @media only screen and (min-width : 1025px) and (max-width : 1200px) {
+ /*--------NAV BAR START--------*/
+ header{
+  width: 110%;
+  margin-top: -300px;
+ }
+ nav ul{
+  position: relative;
+  width: 108%;
+ }
+ .logo{
+  position: relative;
+  bottom: -50px;
+ }
+ #Search{
+  position: relative;
+  margin-right: 20px;
+
+ 
+ }
+  #Logout{
+  position:relative;
+  text-align: center;
+  height: 37px;
+  top: -77px;
+  margin-left: 750px;
+  }
+ .Time{
+    position: relative;
+    bottom: -135px;
+  }
+  /*--------NAV BAR FINISH--------*/
+  /*--------SECTION START--------*/
+  #connn{
+    position: relative;
+    left: 30px;
+  }
+   #time_item{
+    display: none;
+  }
+ .week_item{
+    position: relative;
+    
+    width: 130px;
+    margin-right: 42px;
+    left:140px;
+   
+  }
+  .time1{
+    position: relative;
+   
+    margin-left: -125px;
+    width: 100px;
+  }
+  .day_item{
+ position: relative;
+ display:inline-block;
+ margin-top: 105px;
+ width: 130px;
+ left: 140px;
+ font-size: 1em;
+ height: 190px;
+
+  }
+  .day_item2{
+     display:inline-block;
+ position: relative;
+
+ margin-bottom: 105px;
+ width: 130px;
+ left: 132px;
+ font-size: 1em;
+ height: 190px;
+
+  }
+  .day_item3{
+    display:inline-block;
+ position: relative;
+
+ bottom: 10px;
+ width: 130px;
+ left: 132px;
+ font-size: 1em;
+ height: 190px;
+  }
+
+  #pen{
+    position:relative;
+    cursor: pointer;
+    width: 20%;
+  }
+  .pencil {
+    position:relative;
+    margin-left: 29px;
+    right: -56px;
+    bottom: 8px;
+
+  }
+
+
+  /*--------SECTION FINISH--------*/
+ }
+/*1024px-1200px finish///////////////////////////////////////////////*/
+
+@media only screen and (min-width : 1201px) and (max-width : 1500px){
+  body{
+    width: 1500px;
+  }
+
+  nav ul{
+    position: relative;
+    width: 112%;
+  }
+
+  #Search{
+    position: relative;
+    margin-right: 30px;
+  }
+}

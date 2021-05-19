@@ -1,0 +1,501 @@
+/*280px-320px start///////////////////////////////////////////////*/
+ @media only screen and (min-device-width : 50px) and (max-device-width : 320px){
+  /*---navigation bar start---*/
+ header{
+  margin-top: -140px;
+ }
+  .logo{
+  position: relative;
+ width:285px;
+ bottom: 55px;
+ }
+  .Time{
+  margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 4.0em;
+  font-weight: bold;
+  bottom: -200px;
+ }
+ 
+.fa { 
+  transform: scale(4.5,4); 
+}
+
+.showing{
+    max-height: 45em;
+  }
+ .menu-icon{
+    position: relative;
+    display: block;
+    bottom:56px;
+    right: 70px;
+  }
+
+  nav ul{
+    max-height: 0px;
+    position: relative;
+    height: 390px;
+    right: 105px;
+  }
+
+  
+
+  nav ul li{
+    box-sizing: border-box;
+    width: 120%;
+    padding: 25px;
+    text-align: left;
+    font-size: 2.5em;
+  }
+
+  #Logout{
+    
+    
+    position:relative;
+    width: 115px;
+    bottom:300px;
+    margin-right: 42px;
+    height: 60px;
+    float: right;
+    font-size: 2.0em;
+  }
+
+
+
+ #Search {
+  position: relative;
+ float: left;
+ width: 70%; 
+ height: 15%;
+ font-size: 2.5em;
+ left:15px;
+ }
+
+
+
+ /*---navigation bar finish---*/
+
+
+/*---section bar start---*/
+.week_item{
+  position: relative;
+  text-align:left;
+  margin-left: -230px;
+  padding-left: 10px;
+  margin-top:-100px;
+  width: 979px;
+  height: 70px;
+  font-size: 2.4em;
+ }
+ .time1{
+   position: relative;
+  background-color: white;
+  font-size:1.0em;
+  margin-left: -120px;
+  width: 140px;
+  height: 430px;
+  top:-140px;
+  border-right: 1px solid black;
+ }
+ .time1 p{
+  position:relative;
+ top:140px;
+ }
+ .items1{
+  position: relative;
+  top:-350px;
+  margin-left: 100px;
+ }
+ 
+ .day_item{
+
+ display: inline-block;
+ margin-top:20px;
+ margin-left: -120px;
+ padding-top: 140px;
+ width: 870px;
+ height: 430px;
+ position:relative;
+ font-size: 2.8em;
+
+ 
+ }
+ .day_item2{
+
+ display: inline-block;
+ margin-top:-250px;
+ margin-left: -72px;
+ padding-top: 140px;
+ width: 870px;
+ height: 430px;
+ position:relative;
+  font-size: 2.8em;
+ }
+
+ .day_item3{
+ display: inline-block;
+ margin-top:-250px;
+ margin-left: -72px;
+ padding-top: 140px;
+ width: 870px;
+ height: 430px;
+ position:relative;
+  font-size: 2.8em;
+ }
+ .pencil{
+  position: relative;
+margin-left: 320px;
+bottom: 62px;
+
+
+ }
+ #pen{
+  position: relative;
+  width: 10%;
+  cursor: pointer;
+
+ }
+ #weekdays{
+  position: relative;
+  margin-bottom: -220px;
+ }
+
+
+
+
+
+
+
+
+
+
+ /*---section bar finish---*/
+
+ }
+/*280px-320px finish///////////////////////////////////////////////*/
+/*320px-480px start///////////////////////////////////////////////*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+ /*---navigation bar start---*/
+ header{
+  margin-top: -140px;
+ }
+  .logo{
+  position: relative;
+ width:285px;
+ bottom: 55px;
+ }
+  .Time{
+  margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 4.0em;
+  font-weight: bold;
+  bottom: -200px;
+ }
+ 
+.fa { 
+  transform: scale(4.5,4); 
+}
+
+.showing{
+    max-height: 45em;
+  }
+ .menu-icon{
+    position: relative;
+    display: block;
+    bottom:56px;
+    right: 70px;
+  }
+
+  nav ul{
+    max-height: 0px;
+    position: relative;
+    height: 390px;
+    right: 105px
+  }
+
+  
+
+  nav ul li{
+    box-sizing: border-box;
+    width: 120%;
+    padding: 25px;
+    text-align: left;
+    font-size: 2.5em;
+  }
+
+  #Logout{
+    
+    
+    position:relative;
+    width: 115px;
+    bottom:300px;
+    margin-right: 42px;
+    height: 60px;
+    float: right;
+    font-size: 2.0em;
+  }
+
+
+
+ #Search {
+  position: relative;
+ float: left;
+ width: 70%; 
+ height: 15%;
+ font-size: 2.5em;
+ left:15px;
+ }
+
+
+
+ /*---navigation bar finish---*/
+
+
+/*---section bar start---*/
+.week_item{
+  position: relative;
+  text-align:left;
+  margin-left: -230px;
+  padding-left: 10px;
+  margin-top:-100px;
+  
+  width: 979px;
+  height: 70px;
+  font-size: 2.4em;
+ }
+ .time1{
+   position: relative;
+  background-color: white;
+  font-size:1.0em;
+  margin-left: -120px;
+  width: 140px;
+  height: 430px;
+  top:-140px;
+  border-right: 1px solid black;
+ }
+ .time1 p{
+  position:relative;
+ top:140px;
+ }
+ .items1{
+  position: relative;
+  top:-350px;
+  margin-left: 100px;
+ }
+
+ .day_item{
+
+ display: inline-block;
+ margin-top:20px;
+ margin-left: -120px;
+ padding-top: 140px;
+ width: 870px;
+ height: 430px;
+ position:relative;
+ font-size: 2.8em;
+
+ 
+ }
+ .day_item2{
+
+ display: inline-block;
+ margin-top:-250px;
+ margin-left: -72px;
+ padding-top: 140px;
+ width: 870px;
+ height: 430px;
+ position:relative;
+  font-size: 2.8em;
+ }
+
+ .day_item3{
+ display: inline-block;
+ margin-top:-250px;
+ margin-left: -72px;
+ padding-top: 140px;
+ width: 870px;
+ height: 430px;
+ position:relative;
+  font-size: 2.8em;
+ }
+ .pencil{
+  position: relative;
+margin-left: 320px;
+bottom: 62px;
+
+
+ }
+ #pen{
+  position: relative;
+  width: 10%;
+  cursor: pointer;
+
+ }
+ #weekdays{
+  position: relative;
+  margin-bottom: -220px;
+ }
+
+
+
+
+
+
+
+
+
+
+ /*---section bar finish---*/
+ }
+ /*320px-480px finish///////////////////////////////////////////////*/
+ /*480px-600px start///////////////////////////////////////////////*/
+ @media only screen and (min-device-width : 481px) and (max-device-width : 600px){
+ header{
+  margin-top: -140px;
+ }
+ .logo{
+  position: relative;
+  width:245px;
+  bottom: 40px;
+ }
+ .Time{
+ margin-left: 11px;
+  position: relative;
+  text-align: center;
+  font-size: 3.3em;
+  font-weight: bold;
+  bottom: -200px;
+ }
+ nav ul{
+  position: relative;
+  margin-left: -76px;
+  width: 125%;
+ }
+ nav ul li{
+  position: relative;
+  font-size: 1.8em;
+  right:15px;
+ }
+ #Logout{
+  position: relative;
+  bottom: 245px;
+  left: 75px;
+  width: 120px;
+  float: right;
+  height: 60px;
+  font-size: 1.5em;
+ }
+
+    
+ #Search{
+  position: relative;
+  width: 250px;
+  height: 40px;
+  bottom: -15px;
+  left: 40px;
+  font-size: 1.9em;
+ }
+ 
+ 
+ /*---section bar start---*/
+  #weekdays{
+  position: relative;
+  margin-bottom: -210px;
+ }
+ .time1{
+   position: relative;
+  background-color: white;
+  font-size:1.0em;
+  margin-left: -120px;
+  width: 110px;
+  height: 370px;
+  top:-140px;
+  border-right: 1px solid black;
+ }
+ .time1 p{
+  position:relative;
+ top:80px;
+ }
+ .items1{
+  position: relative;
+  top:-280px;
+  right: -50px;
+  width: 800px;
+ }
+
+
+
+ .week_item{
+  position: relative;
+  text-align:left;
+  margin-left: -230px;
+  padding-left: 10px;
+  margin-top:8px;
+  width:985px;
+  height: 59px;
+  font-size: 2.0em;
+ }
+ .day_item{
+
+ display: inline-block;
+ margin-top:20px;
+ margin-left: -120px;
+ padding-top: 140px;
+ width: 872px;
+ position:relative;
+ font-size: 2.2em;
+ height: 370px;
+ 
+
+ 
+ }
+ .day_item2{
+
+ display: inline-block;
+ margin-top:-170px;
+ margin-left: -72px;
+ padding-top: 140px;
+ width: 875px;
+ position:relative;
+   font-size: 2.2em;
+ height: 370px;
+
+  
+ }
+
+ .day_item3{
+ display: inline-block;
+ margin-top:-170px;
+ margin-left: -72px;
+ padding-top: 140px;
+ width: 875px;
+ position:relative;
+    font-size: 2.2em;
+ height: 370px;
+ }
+  .pencil{
+  position: relative;
+ margin-left: 320px;
+ bottom: 45px;
+
+
+ }
+ #pen{
+  position: relative;
+  width: 5%;
+  cursor: pointer;
+
+ }
+
+
+
+
+
+
+
+
+ /*---section bar finish---*/
+ }
+/*480px-600px finish///////////////////////////////////////////////*/

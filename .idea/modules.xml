@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Timetable1_client/Timetable1.iml" filepath="$PROJECT_DIR$/Timetable1_client/Timetable1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/department.iml" filepath="$PROJECT_DIR$/department.iml" />
+      <module fileurl="file://$PROJECT_DIR$/departmentCRUD/departmentCRUD.iml" filepath="$PROJECT_DIR$/departmentCRUD/departmentCRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sa.iml" filepath="$PROJECT_DIR$/.idea/sa.iml" />
+    </modules>
+  </component>
+</project>

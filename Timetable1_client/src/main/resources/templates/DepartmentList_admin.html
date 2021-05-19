@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+  <meta name = "viewport">
+	<title>Timetable</title>
+  <link th:href="@{/css/admin_bootstrap.min.css}" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" th:href="@{/css/admin_font-awesome.min.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style_admin.css}">
+  <link rel="stylesheet" type="text/css" th:href="@{/css/dialog_admin.css}">
+  <link rel="stylesheet" media="screen and (color)" th:href="@{/css/teachersgroupsmedia_admin.css}">
+  <link rel="stylesheet" media="screen and (color)" th:href="@{/css/tablet_admin.css}">
+  <link rel="stylesheet" media="screen" th:href="@{/css/teachersgroupswindow_admin.css}">
+
+</head>
+<body>
+
+  <style type="text/css">
+    #footer{
+  height:80px;
+  width:100%;
+
+  position:relative;
+  top:0px;
+  
+}
+  </style>
+
+<header>
+  <div class= "container" id="cont">
+
+    <div class="row" id="headerrow">
+      <div class = "col-lg-3">
+        <b><h2 class="Time">ADMIN PANEL</h2></b>
+      </div>
+      <div class = "col-lg-6">
+    <center><img class = "logo" th:src="@{/image/iitu.png}" alt = "logo"></center>
+      </div>
+      <div class = "col-lg-3">
+          <form method="POST" th:action="@{/logout}">
+              <input type="submit" id ="Logout" style="color:#fff;" class="form_btn" value="Sign out">
+          </form>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+
+
+<section class="features"> 
+<div class = "container con">
+
+  <div  class="col-lg-12">
+
+</div>
+    <br><br><br>
+    <form method="POST" th:action="@{/departmentList/find}">
+    <input  style="left:0px; float: left" id="departmentSearch" type="text" name="name" placeholder="Search...">
+
+    <br><br>
+    <br><br>
+    <input type="submit" value="Find">
+    </form>
+
+    <br><br>
+
+    <h3>Department List</h3>
+    <table border="1" cellpadding="2" cellspacing="2">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tr th:each = "o: ${edits}">
+            <td th:text="${o.id}"></td>
+            <td th:text="${o.name}"></td>
+            <td><a th:href="@{/departmentList/edit/{id}(id=${o.id})}">Edit</a></td>
+            <td><a th:href="@{/departmentList/delete/{id}(id=${o.id})}">Delete</a></td>
+        </tr>
+    </table>
+
+
+
+
+</div>
+<div id="dialogoverlay"></div>
+<div id="dialogbox">
+  <div>
+    <div id="dialogboxhead"></div>
+    <div id="dialogboxbody"></div>
+    <div id="dialogboxfoot"></div>
+  </div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="c" id="footer">
+    
+  </div>
+</footer>
+     
+
+  <script type="text/javascript" th:src="@{/js/jquery-3.1.1.min.js}"></script>
+  <script type="text/javascript" th:src="@{/js/script_admin.js}"></script>
+  <script type="text/javascript" th:src="@{/js/jquery-1.7.1.min.js}"></script>
+  <script type="text/javascript" th:src="@{/js/my_scripts_admin.js}"></script>
+  <script type="text/javascript" th:src="@{/js/dialog_admin.js}"></script>
+
+
+</body>
+</html>
